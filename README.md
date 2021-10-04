@@ -34,6 +34,8 @@
 ## Link of the deployed app:
 ### https://gentle-lowlands-41609.herokuapp.com/
 
+## Demonstration of the app running locally
+https://watch.screencastify.com/v/dlUVL0GgJq7v5umf8pWx
 
   # Contributors
   
