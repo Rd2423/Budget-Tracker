@@ -16,12 +16,12 @@ request.onerror = function(event) {
     console.log(event.target.errorCode);
 }
 
-function saveTransaction(transaction){
+function saveTransaction(newtrasaction){
     const transaction = db.transaction(['new_transaction'], 'readwrite');
 
     const transactionObjectStore = transaction.objectStore('new_transaction');
 
-    transactionObjectStore.add(transaction);
+    transactionObjectStore.add(newtrasaction);
 }
 
 function uploadTransaction(){
