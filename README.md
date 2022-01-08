@@ -1,7 +1,7 @@
 
   # Budget Tracker 
   
-  ##Description
+  ## Description
   This is a budget tracker that you can be download it on your cell phone.
   # Table of Contents
   * Installation 
