@@ -1,4 +1,4 @@
-let transactions = [];
+var transactions = [];
 let myChart;
 
 fetch("/api/transaction")
@@ -17,7 +17,7 @@ fetch("/api/transaction")
 function populateTotal() {
   // reduce transaction amounts to a single total value
   let total = transactions.reduce((total, t) => {
-    return total + parseInt(t.value);
+    return total + parseInt(t.value)
   }, 0);
 
   let totalEl = document.querySelector("#total");
