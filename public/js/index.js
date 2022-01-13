@@ -6,14 +6,13 @@ fetch("/api/transaction")
     return response.json();
   })
   .then((data) => {
+    console.log(data);
     // save db data on global variable
     transactions = data;
 
     populateTotal();
     populateTable();
     populateChart();
-  }).catch(err => {
-    console.log(err);
   });
 
 function populateTotal() {
