@@ -1,4 +1,4 @@
-var transactions = [];
+let transactions = [];
 let myChart;
 
 fetch("/api/transaction")
