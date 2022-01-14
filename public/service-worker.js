@@ -43,7 +43,7 @@ self.addEventListener("activate", function (e) {
 });
 
 self.addEventListener("fetch", function (event) {
-  e.respondWith(
+  event.respondWith(
     caches.match(event.request).then(function (response) {
       if (response) {
         console.log("responding with cache : " + event.request.url);
