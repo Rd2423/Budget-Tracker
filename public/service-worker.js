@@ -33,6 +33,8 @@ self.addEventListener("activate", function (e) {
           if (key !== CACHE_NAME && key !== DATA_CACHE_NAME) {
             console.log("deleting cache : " + key);
             return caches.delete(key);
+          }else {
+            console.log("error")
           }
         })
       );
