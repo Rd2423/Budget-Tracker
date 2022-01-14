@@ -42,11 +42,11 @@ self.addEventListener("activate", function (e) {
   );
 });
 
-self.addEventListener("fetch", function (event) {
-  event.respondWith(
+self.addEventListener("fetch", function (e) {
+  e.respondWith(
     caches.match(event.request).then(function (response) {
       if (response) {
-        console.log("responding with cache : " + event.request.url);
+        console.log("responding with cache : " + e.request.url);
         return response;
       }
       return fetch(event.request);
