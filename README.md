@@ -9,6 +9,7 @@
   
   # Table of Contents
   * Installation 
+  * Image
   * Usage
   * License
   * Demonstration
@@ -17,6 +18,10 @@
   
   # Installation
   Fork/clone it. npm install. 
+  
+  # Image
+  <img width="893" alt="Screen Shot 2022-03-02 at 4 43 39 PM" src="https://user-images.githubusercontent.com/78246665/156454595-510d2107-5515-457b-a3ba-47f42b368dcf.png">
+   
  
   # Usage
   Enter a purchase. Enter name of the purchase. Click enter.
