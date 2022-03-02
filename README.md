@@ -37,6 +37,8 @@
 ## Demonstration of the app running locally
 https://watch.screencastify.com/v/dlUVL0GgJq7v5umf8pWx
 
-  # Contributors
+# Contributors
+Contributors: Rayan
   
-  Contributors: Rayan
+# Questions
+Feel free to ask me any questions regarding the app, here's my email: rayandiouf0@gmail.com
